@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">RUC GUIDE</string>
+    <string name="splash_screen_text">WELCOME</string>
+    <string name="title_activity_rucmaps">RUC MAP</string>
+    <string name="title_activity_grid_view">MAIN MENU</string>
+    <string name="title_activity_login">SIGN IN</string>
+    <string name="title_activity_grid_view_menu">Menu</string>
+    <string name="title_activity_schedule">"Class Schedule "</string>
+    <string name="title_activity_modnay_schedule">Modnay Schedule</string>
+    <string name="title_activity_tuesday_schedule">Tuesday Schedule</string>
+    <string name="title_activity_help">Help</string>
+    <string name="user_manual">RUC Guide is an android application designed for RUC students. \n\n
+        -> To view your class schedule you need to click Schedule menu. \n\n
+        -> To view where you are inside RUC compound, you need to click Map menu. \n\n
+        -> To turn on or off the notification, you need to click Setting Menu.
+    </string>
+    <string name="title_activity_notification">Notification</string>
+    <string name="title_activity_setting">Settings</string>
+    <string name="title_activity_grid_menu">Menu</string>
+    <string name="title_activity_class_schedule">Schedule</string>
+</resources>

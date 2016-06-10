@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Schedule Time"
+        android:id="@+id/tv_time"
+        android:typeface="serif"
+        android:textSize="14dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Module Name"
+        android:id="@+id/tv_module"
+        android:typeface="serif"
+        android:textSize="14dp"
+        android:layout_alignBottom="@+id/tv_time"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lecturer Name"
+        android:id="@+id/tv_lecturer"
+        android:typeface="serif"
+        android:textSize="14dp"
+        android:layout_below="@+id/tv_module"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Block"
+        android:id="@+id/tv_block"
+        android:typeface="serif"
+        android:textSize="14dp"
+        android:layout_above="@+id/tv_lecturer"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Class"
+        android:id="@+id/tv_class"
+        android:typeface="serif"
+        android:textSize="14dp"
+        android:layout_alignTop="@+id/tv_lecturer"
+        android:layout_alignEnd="@+id/tv_block" />
+</RelativeLayout>
